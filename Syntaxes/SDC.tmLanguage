@@ -46,9 +46,17 @@
 		</dict>
 		<dict>
 			<key>comment</key>
+			<string>Xilinx XDC Commands</string>
+			<key>match</key>
+			<string>\b(set_power_opt|SET_POWER_OPT)\b</string>
+			<key>name</key>
+			<string>keyword.control.sp</string>
+		</dict>
+		<dict>
+			<key>comment</key>
 			<string>Command parameters</string>
 			<key>match</key>
-			<string>[ \t]+\-(add|add_delay|asynchronous|capacitance|clock|clock_fall|decimal_places|divide_by|end|fall|fall_from|fall_to|from|from_clock|group|hold|include_generated_clock|library|logically_exclusive|master_clock|max|min|multiply_by|name|of_objects|offset|period|phase|physically_exclusive|picofarads|picoseconds|pin_load|port|rise|rise_from|rise_to|section_id|setup|setup|source|through|time|to|to_clock|unit|waveform|ADD|ADD_DELAY|ASYNCHRONOUS|CAPACITANCE|CLOCK|CLOCK_FALL|DECIMAL_PLACES|DIVIDE_BY|END|FALL|FALL_FROM|FALL_TO|FROM|FROM_CLOCK|GROUP|HOLD|INCLUDE_GENERATED_CLOCK|LIBRARY|LOGICALLY_EXCLUSIVE|MASTER_CLOCK|MAX|MIN|MULTIPLY_BY|NAME|OF_OBJECTS|OFFSET|PERIOD|PHASE|PHYSICALLY_EXCLUSIVE|PICOFARADS|PICOSECONDS|PIN_LOAD|PORT|RISE|RISE_FROM|RISE_TO|SECTION_ID|SETUP|SETUP|SOURCE|THROUGH|TIME|TO|TO_CLOCK|UNIT|WAVEFORM)\b</string>
+			<string>[ \t]+\-(add|add_delay|asynchronous|capacitance|clock|clock_fall|decimal_places|divide_by|end|exclude|exclude_cells|fall|fall_from|fall_to|from|from_clock|group|hold|include_generated_clock|library|logically_exclusive|master_clock|max|min|multiply_by|name|of_objects|offset|period|phase|physically_exclusive|picofarads|picoseconds|pin_load|port|rise|rise_from|rise_to|section_id|setup|setup|source|through|time|to|to_clock|unit|waveform|ADD|ADD_DELAY|ASYNCHRONOUS|CAPACITANCE|CLOCK|CLOCK_FALL|DECIMAL_PLACES|DIVIDE_BY|END|EXCLUDE|EXCLUDE_CELLS|FALL|FALL_FROM|FALL_TO|FROM|FROM_CLOCK|GROUP|HOLD|INCLUDE_GENERATED_CLOCK|LIBRARY|LOGICALLY_EXCLUSIVE|MASTER_CLOCK|MAX|MIN|MULTIPLY_BY|NAME|OF_OBJECTS|OFFSET|PERIOD|PHASE|PHYSICALLY_EXCLUSIVE|PICOFARADS|PICOSECONDS|PIN_LOAD|PORT|RISE|RISE_FROM|RISE_TO|SECTION_ID|SETUP|SETUP|SOURCE|THROUGH|TIME|TO|TO_CLOCK|UNIT|WAVEFORM)\b</string>
 			<key>name</key>
 			<string>support.type.sp</string>
 		</dict>
